@@ -20,8 +20,38 @@ header {
 
 .white-box {
   display: flex;
-  height: 40vh;
+  height: 50vh;
   width: 80%;
   background-color: white;
-  margin: 10%;
+  margin-left: 8%;
+  margin-top: 8%;
+  padding-left: 5%;
 }
+
+.person-number {
+  margin-left: 76vw;
+  word-spacing: 0px;
+  margin-bottom: 0px;
+  margin-top:4px;
+}
+
+.person-name {
+  text-decoration: underline;
+  text-decoration-color: rgb(147, 217, 255);
+}
+
+.both-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 8%;
+  margin-top: 15px;
+}
+
+.buttons {
+  margin-left:8%;
+  margin-top: 0px;
+  color: white;
+  background-color: rgb(21, 21, 21);
+  
+}
+
