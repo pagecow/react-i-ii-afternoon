@@ -51,6 +51,9 @@ class Buttons extends Component {
 
                 <button 
                     className='next-button'
+                    onClick={e => {
+                        this.props.id = this.state.idArray[1] 
+                    }}
                 >
                     Next &raquo;
                 </button>

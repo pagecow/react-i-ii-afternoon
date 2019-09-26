@@ -15,14 +15,13 @@ function App() {
         {/* BODY */}
         <div>
           <div className='white-box'>
-
-          <div className='name'><Info /></div>  
+            <div className='name'><Info /></div>  
             
           </div>
         </div>
 
         {/* BUTTONS */}
-        <div className='buttons'><Buttons /></div> 
+        {/* <div className='buttons'><Buttons /></div>  */}
             
       
       </body>

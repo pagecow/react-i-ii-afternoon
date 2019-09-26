@@ -45,6 +45,35 @@ class Info extends Component {
                     <li>{this.state.favoriteMovies.pop()}</li>
                     <li>{this.state.favoriteMovies.pop()}</li>
                 </ol>
+
+                {/* BUTTONS */}
+                <div className='both-buttons'>
+
+                    <button 
+                        className='previous-button' 
+                        onClick={e => {this.setState({
+                            id: this.state.idArray[-0]})}}
+                    >
+                        &laquo; Previous
+                    </button>
+
+
+                    <button 
+                        className='next-button'
+                        onClick={e => {
+                            this.setState({id: this.state.idArray[+1]})
+                            this.setState({name: this.state.nameArray[+1]})
+                            this.setState({from: this.state.fromArray[+1]})
+                            this.setState({jobTitle: this.state.jobTitleArray[+1]})
+                            this.setState({employer: this.state.employerArray[+1]})
+                            this.setState({favoriteMovies: this.state.favoriteArray[+1]})
+                        
+                        }}
+                    >
+                        Next &raquo;
+                    </button>
+
+                    </div> 
             </div>
         )
     }
