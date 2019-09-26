@@ -12,9 +12,7 @@ class Info extends Component {
             jobTitle: 'Physical Therapy Assistant',
             employer: 'Twinder',
             favoriteMovies: [
-            "That Night in Varennes (Nuit de Varennes, La)",
-            "Spy(ies) (Espion(s))",
-            "Klip (Clip)"],
+            "That Night in Varennes (Nuit de Varennes, La), Spy(ies) (Espion(s)), Klip (Clip)"],
 
             idArray: [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25],
             nameArray:["Waylin Lumsdon", 'Hastie Beardsdale', ],
@@ -41,9 +39,9 @@ class Info extends Component {
                 <h3>Favorite Movies:</h3>
                 
                 <ol favoriteMovies={this.state.favoriteMovies}>
-                    <li>{this.state.favoriteMovies.pop()}</li>
-                    <li>{this.state.favoriteMovies.pop()}</li>
-                    <li>{this.state.favoriteMovies.pop()}</li>
+                    <li>{this.state.favoriteMovies}</li>
+                    {/* <li>{this.state.favoriteMovies.pop()}</li>
+                    <li>{this.state.favoriteMovies.pop()}</li> */}
                 </ol>
 
                 {/* BUTTONS */}
@@ -52,12 +50,12 @@ class Info extends Component {
                     <button 
                         className='previous-button' 
                         onClick={e => {
-                            this.setState({id: this.state.idArray[-1]})
-                            this.setState({name: this.state.nameArray[-1]})
-                            this.setState({from: this.state.fromArray[-1]})
-                            this.setState({jobTitle: this.state.jobTitleArray[-1]})
-                            this.setState({employer: this.state.employerArray[-1]})
-                            // this.setState({favoriteMovies: this.state.favoriteArray[+1]})
+                            this.setState({id: this.state.idArray[-0]})
+                            this.setState({name: this.state.nameArray[-0]})
+                            this.setState({from: this.state.fromArray[-0]})
+                            this.setState({jobTitle: this.state.jobTitleArray[-0]})
+                            this.setState({employer: this.state.employerArray[-0]})
+                            this.setState({favoriteMovies: this.state.favoriteMoviesArray[-0]})
                         
                         }}
                     >
@@ -73,7 +71,7 @@ class Info extends Component {
                             this.setState({from: this.state.fromArray[+1]})
                             this.setState({jobTitle: this.state.jobTitleArray[+1]})
                             this.setState({employer: this.state.employerArray[+1]})
-                            // this.setState({favoriteMovies: this.state.favoriteArray[+1]})
+                            this.setState({favoriteMovies: this.state.favoriteMoviesArray[+1]})
                         
                         }}
                     >
