@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Info from './Components/Info';
-import PreviousButton from './Components/Buttons';
+import Buttons from './Components/Buttons';
 
 function App() {
   return (
@@ -18,13 +18,11 @@ function App() {
 
           <div className='name'><Info /></div>  
             
-            
-
           </div>
         </div>
 
         {/* BUTTONS */}
-        <div className='buttons'><PreviousButton /></div> 
+        <div className='buttons'><Buttons /></div> 
             
       
       </body>
