@@ -12,7 +12,7 @@ header {
 }
 
 .logo {
-  color: rgb(21, 21, 21)ck;
+  color: rgb(21, 21, 21);
   font-weight: 900;
   font-size: 20px;
   margin-left: 5vw;
@@ -20,22 +20,24 @@ header {
 
 .white-box {
   display: flex;
-  height: 50vh;
+  height: 60vh;
   width: 80%;
   background-color: white;
   margin-left: 8%;
-  margin-top: 8%;
+  margin-right: 8%;
+  margin-top: 5%;
   padding-left: 5%;
 }
 
 .person-number {
-  margin-left: 76vw;
+  margin-left: 78vw;
   word-spacing: 0px;
   margin-bottom: 0px;
   margin-top:4px;
 }
 
 .person-name {
+  margin-top: 0px;
   text-decoration: underline;
   text-decoration-color: rgb(147, 217, 255);
 }
@@ -43,15 +45,29 @@ header {
 .both-buttons {
   display: flex;
   justify-content: space-between;
-  margin-right: 8%;
+  margin-right: 7%;
+  margin-left: 8%;
   margin-top: 15px;
 }
 
-.buttons {
-  margin-left:8%;
-  margin-top: 0px;
-  color: white;
+.previous-button{
+  height: 40px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: 900;
+  border: 0px;
   background-color: rgb(21, 21, 21);
-  
+  color: white;
 }
+
+.next-button{
+  height: 40px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: 900;
+  border: 0px;
+  background-color: rgb(21, 21, 21);
+  color: white;
+}
+
 

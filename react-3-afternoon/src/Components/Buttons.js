@@ -4,8 +4,8 @@ class PreviousButton extends Component {
     render(){
         return(
             <div className='both-buttons'>
-                <button className='previous'>Previous</button>
-                <button className='next'>Next</button>
+                <button className='previous-button'>&laquo; Previous</button>
+                <button className='next-button'>Next &raquo;</button>
             </div> 
         )
     }
