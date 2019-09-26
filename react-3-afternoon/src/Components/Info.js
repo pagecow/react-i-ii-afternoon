@@ -19,7 +19,7 @@ class Info extends Component {
             fromArray: ["Likiep, Marshall Islands", 'Dzvinogrud, Ukraine', ],
             jobTitleArray: ["Physical Therapy Assistant", 'Data Coordiator', ],
             employerArray: ["Twinder", 'Vinte', ],
-            favoriteMoviesArray: [["That Night in Varennes (Nuit de Varennes, La)","Spy(ies) (Espion(s))","Klip (Clip)"], ["Camp","Her Highness and the Bellboy","Mona and the Time of Burning Love (Mona ja palavan rakkauden aika))"], ]          
+            favoriteMoviesArray: [["That Night in Varennes (Nuit de Varennes, La), Spy(ies) (Espion(s)), Klip (Clip)"], ["Camp, Her Highness and the Bellboy, Mona and the Time of Burning Love (Mona ja palavan rakkauden aika))"], ]          
     }
 }
 
@@ -38,11 +38,11 @@ class Info extends Component {
                 <br></br>
                 <h3>Favorite Movies:</h3>
                 
-                <ol favoriteMovies={this.state.favoriteMovies}>
+                <h3 favoriteMovies={this.state.favoriteMovies}>
                     <li>{this.state.favoriteMovies}</li>
-                    {/* <li>{this.state.favoriteMovies.pop()}</li>
-                    <li>{this.state.favoriteMovies.pop()}</li> */}
-                </ol>
+                    {/* <li>{this.state.favoriteMovies.map(1)}</li>
+                    <li>{this.state.favoriteMovies.map(1)}</li> */}
+                </h3>
 
                 {/* BUTTONS */}
                 <div className='both-buttons'>
