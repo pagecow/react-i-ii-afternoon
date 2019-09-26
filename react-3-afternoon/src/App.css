@@ -20,7 +20,7 @@ header {
 
 .white-box {
   display: flex;
-  height: 50vh;
+  height: 60vh;
   width: 80%;
   background-color: white;
   margin-left: 8%;
@@ -47,7 +47,7 @@ header {
   justify-content: space-between;
   margin-right: 30px;
   margin-left: 0px;
-  margin-top: 130px;
+  margin-top: 10vh;
 }
 
 .previous-button{
