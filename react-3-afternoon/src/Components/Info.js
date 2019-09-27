@@ -51,10 +51,10 @@ class Info extends Component {
                 {/* BUTTONS */}
                 <div className='both-buttons'>
 
-                    <button className='previous-button' onClick={handlePrevious}>{`< Previous`}</button>
+                    <button className='previous-button' onClick={this.handlePrevious}>{`< Previous`}</button>
 
 
-                    <button className='next-button' onClick={handleNext}>{`Next >`}</button>
+                    <button className='next-button' onClick={this.handleNext}>{`Next >`}</button>
 
                 </div> 
             </div>
