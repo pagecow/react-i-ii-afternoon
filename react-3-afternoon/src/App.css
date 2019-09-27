@@ -19,7 +19,7 @@ header {
 }
 
 .white-box {
-  display: flex;
+  display: block;
   height: 60vh;
   width: 80%;
   background-color: white;
@@ -30,14 +30,15 @@ header {
 }
 
 .person-number {
-  margin-left: 78vw;
+  text-align: right;
   word-spacing: 0px;
   margin-bottom: 0px;
-  margin-top:4px;
+  margin-right: 15px;
 }
 
 .person-name {
   margin-top: 0px;
+  margin-left: 0px;
   text-decoration: underline;
   text-decoration-color: rgb(147, 217, 255);
 }
@@ -45,9 +46,9 @@ header {
 .both-buttons {
   display: flex;
   justify-content: space-between;
-  margin-right: 30px;
-  margin-left: 0px;
-  margin-top: 10vh;
+  margin-right: 5%;
+  margin-left: 7%;
+  margin-top: 5px;
 }
 
 .previous-button{
